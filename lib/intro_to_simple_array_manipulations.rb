@@ -28,17 +28,20 @@ def using_insert(array, elment)
   return array
 end
 
-def using_uniq
+def using_uniq(array)
   array.usiq
   return array
 end
 
-def using_flatten
+def using_flatten(array)
   return array.flatten
 end
 
-def using_delete
+def using_delete(array, string)
+  array.delete(string)
+  return array
 end
 
-def using_delete_at
+def using_delete_at(array, num)
+  array.delete(num)
 end
